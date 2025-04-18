@@ -1,5 +1,5 @@
 /* server/controllers/authController.js */
-// Using express-async-handler to simplify error handling in async functions
+// Using express-async-handler to simplify error handling in async functions 
 const asyncHandler = require('express-async-handler');
 const User = require('../models/User'); // Import the User model
 const generateToken = require('../utils/generateToken'); // Import JWT generator utility
