@@ -1,7 +1,7 @@
 /* server/routes/authRoutes.js */
 const express = require('express');
 const {
-  registerUser,
+  registerUser, 
   loginUser,
   getMe,
 } = require('../controllers/authController'); // Import controller functions
