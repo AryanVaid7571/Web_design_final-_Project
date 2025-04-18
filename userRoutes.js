@@ -3,7 +3,7 @@ const express = require('express');
 const {
   getUserProfile,
   updateUserProfile,
-  getAllUsers, // <-- Import added
+  getAllUsers, // <-- Import added 
   // Add other user-related controller functions here later if needed
 } = require('../controllers/userController');
 const { protect, authorize } = require('../middleware/authMiddleware'); // Import middleware
