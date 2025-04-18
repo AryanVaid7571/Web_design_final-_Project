@@ -2,7 +2,7 @@
 import axios from 'axios'; // Import axios for making HTTP requests
 
 // Define the base URL for authentication API endpoints
-// Uses the relative path which works with the proxy setup in package.json during development
+// Uses the relative path which works with the proxy setup in package.json during development 
 const API_URL = '/api/auth/';
 // Alternatively, use the environment variable if you prefer:
 // const API_URL = process.env.REACT_APP_API_URL + '/auth/';
