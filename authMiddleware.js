@@ -6,7 +6,7 @@ const User = require('../models/User'); // Import User model to find user from t
 
 /**
  * Middleware to protect routes that require authentication.
- * Verifies the JWT token from the Authorization header.
+ * Verifies the JWT token from the Authorization header. 
  * Attaches the authenticated user object (excluding password) to the request object (req.user).
  */
 const protect = asyncHandler(async (req, res, next) => {
